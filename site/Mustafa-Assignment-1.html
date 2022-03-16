@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Assignment</title>
+	<style type="text/css">
+	* {
+	box-sizing: border-box;
+	}
+	
+	body {
+	width: 100%;
+	height: 100%;
+	}
+	h1 {
+	margin: 50px 50px 50px 50px;
+	text-align: center;
+	}
+
+	section {
+	width: 380px;
+	height: 190px;
+	margin: 15px;
+	border: 2px solid black;
+	background-color: lightgray;
+	float: left;
+	}
+
+	header {
+	margin: 0;
+	width: 125px;
+	height: 25px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	font-family: sans-serif bold;
+	font-size:  18px;
+	text-align: center;
+	float: right;
+
+	}
+	p {
+	margin-top: 30px;
+	padding: 10px;
+	font-family: sans-serif bold;
+	font-size:  18px;
+	}
+	.header1 {
+	background-color: pink;
+	}
+	#header2 {
+	color: white;
+	background-color: red;
+	}
+
+	.header3 {
+	background-color: bisque;
+	}
+
+	@media (min-width: 850px) and (max-width: 1233px) {
+	
+	.section1 {
+		width: 32%;
+	}
+	#section2 {
+		width: 32%;
+	}
+	.section3 {
+		width: 66.50%;
+	}
+	}
+
+@media (max-width: 849px) {
+	
+	.section1 {
+		width: 90%;
+	}
+	#section2 {
+		width: 90%;
+	}
+	.section3 {
+		width: 90%;
+	}
+	}
+
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	
+	<section class="section1"><header class="header1">Chicken</header><p>
+		lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore magna aliqua. Ut enim ad minim veriam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consquat.
+	</p></section>
+		
+	<section id="section2"><header id="header2">Beef</header><p>
+		lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore magna aliqua. Ut enim ad minim veriam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consquat.
+	</p></section>
+
+	<section class="section3"><header class="header3">Sushi</header><p>
+		lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore magna aliqua. Ut enim ad minim veriam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consquat.
+	</p></section>
+</body>
+</html>
