@@ -1,0 +1,425 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61500b;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+
+#header-nav {
+	background-color: #f6e340;
+	border-radius: 0;
+	border: 0;
+	margin: 0;
+}
+
+#myCanvas {
+	background-color: hotpink;
+	border:3px solid #d3d3d3; 
+	border-radius: 50px;
+	margin: 10px 15px 10px 0;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+	font-family: "Lora", serif;
+	color: #550f5e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand p { /* Kosher cert */
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+.navbar-brand p span { /* star.svg */
+	vertical-align: middle;
+}
+
+.navbar-collapse {
+	flex-grow: 0;
+	margin-top: 45px;
+}
+
+.glyphicon-1 {
+	background: url("../images/Home.jpg") no-repeat;
+	width: 60px;
+	height: 60px;
+	margin: 2px;
+	/*border: 2px solid white;
+	border-radius: 15px;*/
+}
+.glyphicon-2 {
+	background: url("../images/glyphicon-2.jpg") no-repeat;
+	width: 60px;
+	height: 60px;
+	margin: 2px;
+	/*border: 2px solid white;
+	border-radius: 15px;*/
+}
+.glyphicon-3 {
+	background: url("../images/glyphicon-3.jpg") no-repeat;
+	width: 60px;
+	height: 60px;
+	margin: 2px;
+	/*border: 2px solid white;
+	border-radius: 15px;*/
+}
+.glyphicon-4 {
+	background: url("../images/glyphicon-4.jpg") no-repeat;
+	width: 60px;
+	height: 60px;
+	margin: 2px;
+	/*border: 2px solid white;
+	border-radius: 15px;*/
+}
+
+#nav-list {
+ 	margin-top: 10px;
+}
+#nav-list a {
+ 	color: #951C49;
+ 	text-align: center;
+}
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.25em;
+}
+#phone {
+	margin-top: 5px;
+}
+#phone a { /* Phone number */
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+	color: #550f3e;
+	text-align: right;
+	padding-right: 15px;
+}
+
+div.navbar-header button.navbar-toggler, .navbar-header .navbar-toggler-icon {
+	border: 1px solid #61122f;
+}
+div.navbar-header button.navbar-toggler {
+	margin-top: -30px;
+}
+
+.navbar-toggler {
+	position: relative;
+	float: right;
+	margin-top: 8px;
+	margin-right: 15px;
+	margin-bottom: 8px;
+}
+
+/* END HEADER */
+
+/* FOOTER */
+.modal-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #234;
+	border-top: 0;
+}
+.modal-footer div.row {
+	margin-bottom: 35px;
+}
+#hours > span, #address > span {
+	font-size: 1.3em;
+}
+#address p {
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+#testimonials {
+	font-style: italic;
+}
+#testimonials p:nth-child(2) {
+	margin-top: 25px;
+}
+/* END FOOTER */
+
+/* HOME PAGE */
+
+#HomePageHeader {
+		margin-top: 5px;
+		font-size: 2em;
+		letter-spacing: .1em;
+		background-color: white;
+		color: black;
+		margin: 5px;
+		margin-bottom: 20px;
+		padding-top: 15px;
+		padding-bottom: 30px;
+	}
+
+.colr {
+	background-color: lightslategray;
+}
+
+article > div {
+		margin: 0;
+		width: 100%;
+		height: 80px;
+		margin-top: 0;
+		margin-bottom: 0;
+		border-left: 2px solid black;
+		border-bottom: 2px solid black;
+		font-family: sans-serif, arial, helvetica, bold;
+		font-size:  18px;
+		text-align: center;
+		vertical-align: middle;		
+		color: black;
+		background-color: white;
+	}	
+
+article .header1, article .header2, article .header3 {
+	width: 80px;
+	height: 80px;
+	display: inline;
+	font-size: 2em;
+}
+
+div article p {
+	padding: 10px;
+	font-family: sans-serif, arial, helvetica,bold;
+	font-size:  18px;
+	margin-bottom: 0;
+}
+
+article span, #Map-tile span {
+	position: relative;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+	display: block;
+}
+
+#Chicken-tile, #Beef-tile, #Sushi-tile {
+	height: 80px;
+	width: 30%;
+	margin-bottom: 5px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+	display: inline;
+	float: left;
+}
+
+#Chicken-tile:hover, #Beef-tile:hover, #Sushi-Tile:hover, #Map-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#Chicken-tile {
+	background: url("../images/Chicken.jpg") no-repeat;
+	background-position: center;
+}
+#Beef-tile {
+	background: url("../images/Beef.png") no-repeat;
+	background-position: center;
+}
+#Sushi-tile {
+	background: url("../images/Sushi.jpg") no-repeat;
+	background-position: center;
+}
+
+#Map-tile {
+	margin-top: 10px;
+}
+
+div.jumbotron {
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
+	margin-top: 10px;
+}
+/* END HOME PAGE */
+
+
+/****************** Large devices only ********************/
+@media (min-width: 1200px) {
+
+	.visi-sm {
+		visibility: hidden;
+	}
+
+	/* Home Page */
+	div.jumbotron {
+		background: url("../images/Restaurant3-L.jpg") no-repeat;
+		height: 675px;
+	}
+	/* End Home Page */
+
+}
+
+/****************** Medium devices only ********************/
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	.visi-sm {
+		visibility: hidden;
+	}
+
+	/* Home Page */
+	div.jumbotron {
+		background: url(../images/Restaurant3-M.jpg) no-repeat;
+		height: 558px;
+	}
+	/* End Home Page */
+}
+
+/****************** Small devices only ********************/
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.visi-sm {
+		visibility: hidden;
+	}
+
+	/* Home Page */
+	
+	div.jumbotron {
+		background: url("../images/Restaurant3-S.jpg") no-repeat;
+		height: 432px;
+	}
+	/* End Home Page */
+
+}
+
+/****************** Extra Small devices only ********************/
+@media (max-width: 767px) {
+	
+	.visi-sm {
+		visibility: visible;
+	}
+
+	.invisi-sm {
+		display: none;
+	}
+
+	/* Header */
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1 { /* Restaurant name */
+		padding-top: 10px;
+		font-size: 5vw; /* 1vw = 1% of viewport width */
+	}
+	.navbar-brand p { /* Kosher cert */
+		font-size: 0.6em;
+		margin-top: 12px;
+	}
+	.navbar-brand p img { /* star.svg */
+		height: 20px;
+	}	
+
+	#collapsable-nav a { /* Collapsed nav menu glyph */
+		font-size: 1.2em;
+	}
+	#collapsable-nav a span {
+		font-size: 1em;
+		margin-right: 5px;
+	}
+
+	.glyphicon-phone {
+		background: url("../images/glyphicon-phone.jpg") no-repeat;
+		width: 60px;
+		height: 60px;
+		margin: 2px;
+		padding: 0;
+		/*border: 2px solid white;
+		border-radius: 15px;*/
+}
+
+	#call-btn > a div:nth-child(2) {
+		display: inline;
+		width: 300px;
+		height: 50px;
+	
+	}
+
+	#call-btn > a {
+		font-size: 2.25em;
+		display: block;
+		width: auto;
+		height: 100px;
+		margin: 20px;
+		border: 2px solid #fff;
+		background-color: #f6b319;
+		color: #951c49;
+	}
+
+	/* End Header */
+
+	/* Footer */
+	.modal-footer section {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.modal-footer section:nth-child(3) {
+		margin-bottom: 0; /* margin already exists on the whole row */
+	}
+	.modal-footer section hr {
+		width: 50%;
+	}
+	/* End Footer */
+	
+	/* Home Page */
+	div.jumbotron {
+		padding: 0;
+	}
+	
+	#Chicken-tile, #Beef-tile, #Sushi-tile {
+		width: 300px;
+		margin: 0 auto 15px;
+	}
+
+	/* End Home Page */
+		
+}
+
+/************* Super extra small devices Only :-) (e.g, iPhone 4) ******/
+
+@media (max-width: 479px) {
+
+	.visi-sm {
+		visibility: visible;
+	}
+
+	.invisi-sm {
+		display: none;
+	}
+	#Chicken-tile, #Beef-tile, #Sushi-tile {
+		width: 200px;
+		margin: 0 auto 15px;	
+	}
+
+	div.jumbotron {
+		padding: 0;
+	}
+}
