@@ -58,7 +58,7 @@ a:hover, a:focus {
 }
 
 .glyphicon-1 {
-	background: url("https://mmtw33.github.io/coursera-test/module3-solution/images/Home.jpg") no-repeat;
+	background: url("../images/Home.jpg") no-repeat;
 	width: 60px;
 	height: 60px;
 	margin: 2px;
@@ -66,7 +66,7 @@ a:hover, a:focus {
 	border-radius: 15px;*/
 }
 .glyphicon-2 {
-	background: url("https://mmtw33.github.io/coursera-test/module3-solution/images/glyphicon-2.jpg") no-repeat;
+	background: url("../images/glyphicon-2.jpg") no-repeat;
 	width: 60px;
 	height: 60px;
 	margin: 2px;
@@ -74,7 +74,7 @@ a:hover, a:focus {
 	border-radius: 15px;*/
 }
 .glyphicon-3 {
-	background: url("https://mmtw33.github.io/coursera-test/module3-solution/images/glyphicon-3.jpg") no-repeat;
+	background: url("../images/images/glyphicon-3.jpg") no-repeat;
 	width: 60px;
 	height: 60px;
 	margin: 2px;
@@ -82,7 +82,7 @@ a:hover, a:focus {
 	border-radius: 15px;*/
 }
 .glyphicon-4 {
-	background: url("https://mmtw33.github.io/coursera-test/module3-solution/images/glyphicon-4.jpg") no-repeat;
+	background: url("../images/glyphicon-4.jpg") no-repeat;
 	width: 60px;
 	height: 60px;
 	margin: 2px;
@@ -238,15 +238,15 @@ article span, #Map-tile span {
 }
 
 #Chicken-tile {
-	background: url("https://mmtw33.github.io/coursera-test/module3-solution/images/Chicken.jpg") no-repeat;
+	background: url("../images/Chicken.jpg") no-repeat;
 	background-position: center;
 }
 #Beef-tile {
-	background: url("https://mmtw33.github.io/coursera-test/module3-solution/images/Beef.png") no-repeat;
+	background: url("../images/Beef.png") no-repeat;
 	background-position: center;
 }
 #Sushi-tile {
-	background: url("https://mmtw33.github.io/coursera-test/module3-solution/images/Sushi.jpg") no-repeat;
+	background: url("../images/Sushi.jpg") no-repeat;
 	background-position: center;
 }
 
@@ -271,7 +271,7 @@ div.jumbotron {
 
 	/* Home Page */
 	div.jumbotron {
-		background: url("https://mmtw33.github.io/coursera-test/module3-solution/images/Restaurant3-L.jpg") no-repeat;
+		background: url("../images/Restaurant3-L.jpg") no-repeat;
 		height: 675px;
 	}
 	/* End Home Page */
@@ -303,7 +303,7 @@ div.jumbotron {
 	/* Home Page */
 	
 	div.jumbotron {
-		background: url("https://mmtw33.github.io/coursera-test/module3-solution/images/Restaurant3-S.jpg") no-repeat;
+		background: url("../images/Restaurant3-S.jpg") no-repeat;
 		height: 432px;
 	}
 	/* End Home Page */
@@ -347,7 +347,7 @@ div.jumbotron {
 	}
 
 	.glyphicon-phone {
-		background: url("https://mmtw33.github.io/coursera-test/module3-solution/images/glyphicon-phone.jpg") no-repeat;
+		background: url("../images/glyphicon-phone.jpg") no-repeat;
 		width: 60px;
 		height: 60px;
 		margin: 2px;
