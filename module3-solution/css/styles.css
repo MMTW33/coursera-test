@@ -233,7 +233,7 @@ article span, #Map-tile span {
 	float: left;
 }
 
-#Chicken-tile:hover, #Beef-tile:hover, #Sushi-Tile:hover, #Map-tile:hover {
+#Chicken-tile:hover, #Beef-tile:hover, #Sushi-tile:hover, #Map-tile:hover {
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
 
